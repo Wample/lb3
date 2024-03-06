@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Особиста інформація</title>
+</head>
+<body>
+    <!-- форма -->
+  <h1>Особиста інформація</h1>
+  <form action="#">
+    <label for="name">Ваше ім'я:</label>
+    <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+    <br>
+    <label for="age">Ваш вік:</label>
+    <input type="number" id="age" name="age" placeholder="Введіть ваш вік">
+    <br>
+    <br>
+    <label for="password">Ваш пароль:</label>
+    <input type="password" id="password" name="password" placeholder="Введіть ваш пароль">
+    <br>
+    <br>
+    <label for="gender">Стать:</label>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">Чоловіча</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Жіноча</label>
+    <br>
+    <br>
+    <label for="city">Ваше місто:</label>
+    <select id="city" name="city">
+      <option value="">-- Виберіть місто --</option>
+      <option value="Kyiv">Київ</option>
+      <option value="Lviv">Львів</option>
+      <option value="Odesa">Одеса</option>
+      <option value="Kharkiv">Харків</option>
+    </select>
+    <br>
+    <br>
+    <label for="message">Ваше повідомлення:</label>
+    <br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+    <br>
+    <br>
+    <input type="checkbox" id="remember_me" name="remember_me">
+    <label for="remember_me">Запам'ятати мене</label>
+    <br>
+    <br>
+    <input type="submit" value="Відправити">
+  </form>
+</body>
+</html>
